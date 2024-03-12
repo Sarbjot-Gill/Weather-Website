@@ -10,7 +10,7 @@ async function getWeather() {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '57b246d315mshbd5e35002b0f4bap144ffcjsn22ddf69cd6b3',
+            'X-RapidAPI-Key': 'API KEY HERE',
             'X-RapidAPI-Host': 'yahoo-weather5.p.rapidapi.com'
         }
     };
