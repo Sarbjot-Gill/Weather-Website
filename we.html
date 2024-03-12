@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="we.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="serch">
+            <input type="text" id="ser" placeholder="Enter The city">
+            <button id="se" onclick="getWeather()"><img id="qq" src="search.png"></img></button>
+        </div>
+        <div class="we">
+            <img class="weic" id="condimg" src="rain.png"></img>
+            <h1 class="tem" id="temp"></h1>
+            <h2 class="city" id="city"></h2>
+            <div class="detail">
+                <div class="col">
+                    <img src="humidity.png"></img>
+                    <div>
+                        <p class="humdity" id="hum"></p>
+                        <p class="humdity">humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="wind.png"></img>
+                    <div>
+                        <p class="wind" id="wind"></p>
+                        <p class="wind">wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="we.js"></script>
+</body>
+
+</html>
